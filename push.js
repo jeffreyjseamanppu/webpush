@@ -15,12 +15,12 @@ push.setVapidDetails('mailto:jseaman@pointpark.edu', vapidKeys.publickey, vapidK
 
 let sub = {
     endpoint:
-      'https://fcm.googleapis.com/fcm/send/f4xxJSTW6sw:APA91bGrXk9G4OxVFqtTOGkbaiglWTpSrnY27XGmDosdOr0OxBR4DVPCJlpqhBfhcsDwVWM2NJiQ61z7_kbSCbnWffD1gGkJNVWGQ7wR6YOBaiCmQgRQn2ayY6udYcpXG6yOv34ze3zY',
+      'https://fcm.googleapis.com/fcm/send/e4f7haybxow:APA91bGFBkV2oBBuu4t1Xnz-fDXHERza2wcIz8M_j0wxJyNGyDiU6JO3T09ABxJEv6q6KvVCP7YPy8Uy65uO-lX0-8dsHpo7gfYUQWv7LgjtnYD9wDfcyAaFJUBsA1VJIjq_BXJFEe_Y',
     expirationTime: null,
     keys: {
       p256dh:
-        'BMfmvyO9HWsJR4bHSHD_w-Xu-OUF6Q90hTLqnBa-mNh3QWwRco87S2XZg3Mezc2phV7rRyJXRaqTMsXKECWzdXI',
-      auth: 'TW-LBZmYtXNHNNBj3OiqxMV-QbyJdSwzQW7VQUPX4I0w'
+        'BEmxDHLfaJXTntRU6xUbb_4NuJ91m-3hx0351hSKI8pY0Fsl9kiX5pLdkW3Xn6M4nofcXVbcNW0n0_p7wd-S8OY',
+      auth: 'DPwziQAufRznlCRzuzFy-w'
     }
   };
   
