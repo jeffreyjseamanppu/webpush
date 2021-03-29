@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../Apps/Firebase/EmployeesApp/app"
+		},
+		{
+			"path": "../../../Apps/Firebase/WineryApp"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "webpush"
+	}
+}
