@@ -23,4 +23,6 @@ let sub = {
 };
 
 
-push.sendNotification(sub, 'Test Message')
+
+
+push.sendNotification(sub, 'Test Message');
