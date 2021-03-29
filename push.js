@@ -1,8 +1,5 @@
 var push = require('web-push');
 
-//let vapidKeys2 = push.generateVAPIDKeys();
-//console.log(vapidKeys2);
-
 
 let vapidKeys = {
     publickey: 'BHLf4LGAERsLj8yWf-ItFrcKTnt-9jd6-BS6z_EkA9VtnpzjKKAL-tiwk0REsOOexMP9l2vAch4QENE0cHVkRP8',
@@ -15,19 +12,6 @@ push.setVapidDetails('mailto:jseaman@pointpark.edu', vapidKeys.publickey, vapidK
 //If we were using a server and API. When we'd click the subscribe button, the end point would be provided back to us
 //We are hard coding this as if we did receive this information from the server.
 
-//credentials for firefox
-/*
-let sub = {
-    endpoint:
-      'https://updates.push.services.mozilla.com/wpush/v2/gAAAAABgY…31eFtKk7s1jTb3Eh73Uo1VVv_2YhFP4n6AvEGTQQ2ff94goM5cZsnxon6MoI',
-    expirationTime: null,
-    keys: {
-      p256dh:
-        'BFXW2Gom0lQZ7yOMGYqwKsN2FYx6mrYIUgErhdPti4q8Aqx5yoKnqKxuxUDvtbaxpNT_iU-Wb4dCEvvTBJrjMOY',
-      auth: 'DiUoSdgKI_M0fNQALkDjhA'
-    }
-  };
-  */
   
   //credentials for chrome
   
@@ -42,5 +26,5 @@ let sub = {
     }
   };
 
-  push.sendNotification(sub, 'test message');
+  //push.sendNotification(sub, 'test message');
   
