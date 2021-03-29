@@ -20,7 +20,8 @@
             let sw = await navigator.serviceWorker.ready;
             let push = await sw.pushManager.subscribe({
                 userVisibleOnly: true,
-                applicationServerKey: 'BDzYfjVqZoHJdMJaThzhiYGKbkx6f5oDN4YujNwWjTdCbbZlLC2eX_OvMk2MoCDzX5dF0MqvUmyVzadT_P9mY9w'
+                //applicationServerKey: 'Todo!'
+                applicationServerKey: 'BHLf4LGAERsLj8yWf-ItFrcKTnt-9jd6-BS6z_EkA9VtnpzjKKAL-tiwk0REsOOexMP9l2vAch4QENE0cHVkRP8'
             })
             console.log(JSON.stringify(push)) //normally send to API to save to a database
 

@@ -1,10 +1,14 @@
 var push = require('web-push');
 
+//let vapidKeys2 = push.generateVAPIDKeys();
+//console.log(vapidKeys2);
+
 
 let vapidKeys = {
-    publickey: 'BDzYfjVqZoHJdMJaThzhiYGKbkx6f5oDN4YujNwWjTdCbbZlLC2eX_OvMk2MoCDzX5dF0MqvUmyVzadT_P9mY9w',
-    privatekey: 'rHaWsC7qeIHoMRwH1YTSJo3YBTc4yuEpVzg85vv-5qw'
+    publickey: 'BHLf4LGAERsLj8yWf-ItFrcKTnt-9jd6-BS6z_EkA9VtnpzjKKAL-tiwk0REsOOexMP9l2vAch4QENE0cHVkRP8',
+    privatekey: 'Ak9FCnE32K1mlLBxqnwgFg7eeH8J3Dee5Id0j1oGIBs'
 };
+
 
 push.setVapidDetails('mailto:jseaman@pointpark.edu', vapidKeys.publickey, vapidKeys.privatekey);
 
@@ -26,6 +30,7 @@ let sub = {
   */
   
   //credentials for chrome
+  
   let sub = {
     endpoint:
       '"https://fcm.googleapis.com/fcm/send/e4f7haybxow:APA91bGFBkV2oBBuu4t1Xnz-fDXHERza2wcIz8M_j0wxJyNGyDiU6JO3T09ABxJEv6q6KvVCP7YPy8Uy65uO-lX0-8dsHpo7gfYUQWv7LgjtnYD9wDfcyAaFJUBsA1VJIjq_BXJFEe_Y',
@@ -38,5 +43,4 @@ let sub = {
   };
 
   push.sendNotification(sub, 'test message');
-  
   
